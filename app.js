@@ -1,4 +1,4 @@
-console.log('connenting');
+// console.log('connenting');
 
 // 01 eita ke literal object bole
 const student={name: 'rubel mia', job:'web-devolper'};
@@ -8,4 +8,6 @@ const student={name: 'rubel mia', job:'web-devolper'};
 const person= new Object();
 
 
-const hero='alom';
+const human=Object.create(null);
+
+console.log(human);
