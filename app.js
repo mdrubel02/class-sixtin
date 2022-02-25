@@ -8,6 +8,17 @@ const student={name: 'rubel mia', job:'web-devolper'};
 const person= new Object();
 
 
-const human=Object.create(null);
+const human=Object.create(student);
 
-console.log(human);
+console.log(human.name);
+
+
+class pepole{
+    constructor(name, age){
+        this.name=name;
+        this.age=age;
+    }
+}
+
+const pepol=new pepole('piyas', 22);
+console.log(pepol);
