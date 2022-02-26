@@ -83,7 +83,13 @@ const salaryRemining=bigObject.treatde(2000);
 
 
 
-const bottol ={name:'yellow', color:'red',size:3.5, price:250};
+const bottol ={name:'yellow', color:'red',size:3.5, price:250,};
 
 const keys=Object.keys(bottol);//ei keys dara object sob name dora jai
 console.log(keys);
+const value=Object.values(bottol);//values dara object sob value ke pawa jai
+console.log(value);
+
+
+const allObject=Object.entries(bottol);//entries dara object name and value ke ekta ekta kore array return kore
+console.log(allObject);
