@@ -36,3 +36,21 @@ class studentDetiles {
 
 const student=new studentDetiles(23,4.6,78,'bangla',2020);
 console.log(student);
+
+
+
+
+class myprofashion{
+    constructor(name,height,habbit,job,subject,collage){
+        this.name=name;
+        this.height=height;
+        this.habbit=habbit;
+        this.job=job;
+        this.subject=subject;
+        this.collage=collage;
+    }
+};
+
+
+const hello=new myprofashion('rubel mia',5.6, 'web-devolpment','no-job', 'english', 'mymenshing');
+console.log(hello);
