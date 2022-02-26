@@ -76,6 +76,6 @@ const bigObject={
     }
 }
 
-
+console.log(bigObject.name);
 const salaryRemining=bigObject.treatde(2000);
-console.log(salaryRemining);
+// console.log(salaryRemining);
