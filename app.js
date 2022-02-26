@@ -84,14 +84,25 @@ const salaryRemining=bigObject.treatde(2000);
 
 
 const bottol ={name:'yellow', color:'red',size:3.5, price:250,};
+for(const pop in bottol){
+    console.log(pop);
+}
 
 const keys=Object.keys(bottol);//ei keys dara object sob name dora jai
-console.log(keys);
+// console.log(keys);
 const value=Object.values(bottol);//values dara object sob value ke pawa jai
-console.log(value);
+// console.log(value);
 
 
 const allObject=Object.entries(bottol);//entries dara object name and value ke ekta ekta kore array return kore
-console.log(allObject);
+// console.log(allObject);
 delete bottol.color;// eita dara kuno object er property (name and value) duitai delete kore dey
-console.log(bottol);
+// console.log(bottol);
+
+
+
+const bottol1 ={name:'yellow', color:'red',size:3.5, price:250,};
+for(const pop in bottol1){ // object er upor for loop use korar jonno (for in use korte hoi)
+    console.log(pop); // eita diya shudu object name ke pawa jai
+    console.log(bottol1[pop]); // eita diya object er value pawa jai
+}
