@@ -54,3 +54,28 @@ class myprofashion{
 
 const hello=new myprofashion('rubel mia',5.6, 'web-devolpment','no-job', 'english', 'mymenshing');
 console.log(hello);
+
+
+
+
+
+
+const bigObject={
+    name:'asmot ali',
+    job:'no-job',
+    student:{
+        id:34,
+        roll:03,
+    },
+    place:'jamalpur',
+    house:'malancho',
+    salary:5000,
+    treatde: function(expens){
+        this.salary=this.salary-expens;
+        return this.salary;
+    }
+}
+
+
+const salaryRemining=bigObject.treatde(2000);
+console.log(salaryRemining);
