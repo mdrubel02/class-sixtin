@@ -79,3 +79,11 @@ const bigObject={
 console.log(bigObject.name);
 const salaryRemining=bigObject.treatde(2000);
 // console.log(salaryRemining);
+
+
+
+
+const bottol ={name:'yellow', color:'red',size:3.5, price:250};
+
+const keys=Object.keys(bottol);//ei keys dara object sob name dora jai
+console.log(keys);
