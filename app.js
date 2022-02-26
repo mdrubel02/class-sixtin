@@ -93,3 +93,5 @@ console.log(value);
 
 const allObject=Object.entries(bottol);//entries dara object name and value ke ekta ekta kore array return kore
 console.log(allObject);
+delete bottol.color;// eita dara kuno object er property (name and value) duitai delete kore dey
+console.log(bottol);
