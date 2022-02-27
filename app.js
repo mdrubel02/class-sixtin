@@ -105,4 +105,18 @@ const bottol1 ={name:'yellow', color:'red',size:3.5, price:250,};
 for(const pop in bottol1){ // object er upor for loop use korar jonno (for in use korte hoi)
     console.log(pop); // eita diya shudu object name ke pawa jai
     console.log(bottol1[pop]); // eita diya object er value pawa jai
+    console.log(pop, bottol1[pop]);//abr duita ek shatei access kora jai
 }
+
+
+
+// quiz of moduil
+const obj ={a:1, b:7, c:3, length:2};
+console.log(Object.keys(obj).length);
+
+const obj1= {module: 35, video:2}; const obj2= {module: 35, video:2};
+console.log(obj1 === obj2);
+
+
+const getGirlFriend= (name = "chokina")=>"name"; 
+console.log(getGirlFriend()); 
